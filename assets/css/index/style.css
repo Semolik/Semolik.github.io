@@ -1,0 +1,111 @@
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    background: #69849b;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: flex;
+    font-family: 'Product Sans';
+    font: 'Product Sans';
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile {
+    position: relative;
+    display: inline-flex;
+    padding: 0.3em;
+}
+
+.info {
+    display: flex;
+    background: none;
+    padding: 10px;
+    color: #fff;
+	background:#fff3;
+	border-radius: 2em;
+}
+.buttons {
+    min-width: 300px;
+    width: 20em;
+    display: flex;
+	margin: 20px 0px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+}
+a.link {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -moz-tap-highlight-color: rgba(0,0,0,0);
+    padding: 8px 20px; 
+    margin: 4px;
+    background: #fff3;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    width: 256px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+    border: none;
+}
+
+.avatar-container {
+	margin: 0.5em;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.avatar {
+    width: 20em;
+    height: 20em;
+    border-radius: 2em;
+    border: black solid 1px;
+}
+
+
+
+a.link:hover,
+button:hover {
+    background: rgba(109, 109, 109, 0.39);
+    color: rgb(56, 56, 56);
+}
+
+button:active, button:focus {
+      outline: none;
+}
+
+button::-moz-focus-inner {
+      border: 0;
+      
+}
+
+button::-webkit-focus-inner {
+    border: 0;
+}
+
+h3 {
+    font-style: normal;
+	font-size: 24px;
+    font-weight: inherit;
+    transition: .2ms;
+    -webkit-transition: .2ms;
+    -moz-transition: .2ms;
+}
+
+
+h2 {
+    font-size: larger;
+    transition: .2ms;
+    -webkit-transition: .2ms;
+    -moz-transition: .2ms;
+}

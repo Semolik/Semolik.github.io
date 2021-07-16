@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Semolik Assets</title>
+        <meta property="og:title" content="Semolik">
+        <meta property="og:locale" content="en_EU">
+        <meta property="og:description" content="Semolik's assets">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/eblan.png" type="image/png">
+        <link rel="stylesheet" href="fonts/gsans/style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178467700-1"></script>
+        <style>
+            body {
+                background-color: black;
+                background-image: radial-gradient(
+                    rgba(48, 0, 88, 0.24), black 120%
+                );
+                color: rgb(230, 230, 230);
+                font: 1em Inconsolata, monospace;
+            }
+            body::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: repeating-linear-gradient(
+                    0deg,
+                    rgba(black, 0.50),
+                    rgba(black, 0.50) 3px,
+                    transparent 5px,
+                    transparent 5px
+                );
+            }
+            ::selection {
+                background: #2fa55677;
+                text-shadow: none;
+            }
+        </style>
+    </head>
+    <body>
+        <span>root@Semolik~# </span><span style="white-space:pre;" id="type"></span>
+		<script>
+			function is_shit() {
+				if (/MSIE/i.test(navigator.userAgent)) return true
+				if (/firefox/i.test(navigator.userAgent)) return true
+				if (/Trident/i.test(navigator.userAgent)) return true
+				if (/Edge/i.test(navigator.userAgent)) return true
+				return false
+			}
+			if (is_shit()) {
+				alert("ПОСТАВЬ ХРОМ ЕБЛАН")
+				window.open('https://www.google.com/intl/ru/chrome/', '_blank');
+			}
+			console.log("SSH Connection successful!")
+		</script>
+		<script>
+			$.ajax({url: "https://ident.me", success: function(result){
+				new Typed('#type', {
+					strings: ['pidorscan^1000\n`[SCANNER] Starting scan...`^1000\n`[SCANNER] Scanning '+result+'...`^6000\n`[DETECTED] Gay IP!`\n`Rickrolling...`^1000'],
+					typeSpeed: 40,
+					backSpeed: 0,
+					cursorChar: '❚',
+					loop: false,
+					onComplete: function(self) { (location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ") }
+				})
+			}});
+
+		</script>
+	</body>
+</html>
