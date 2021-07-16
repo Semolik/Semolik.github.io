@@ -31,8 +31,7 @@ body {
 	border-radius: 2em;
 }
 .buttons {
-    min-width: 300px;
-    width: 20em;
+    width: 17em;
     display: flex;
 	margin: 20px 0px;
     -webkit-border-radius: 8px;
@@ -51,7 +50,7 @@ a.link {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -khtml-border-radius: 8px;
-    width: 256px;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     transition: .5s;
@@ -66,10 +65,9 @@ a.link {
 }
 
 .avatar {
-    width: 20em;
-    height: 20em;
+    width: 17em;
+    height: 17em;
     border-radius: 2em;
-    border: black solid 1px;
 }
 
 
